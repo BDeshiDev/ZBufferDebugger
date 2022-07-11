@@ -1,6 +1,7 @@
 # ZBufferDebugger
 load and visualize for cse 410 offline becausing debugging that thing in text is hell.
 #Usage:
+![Usage](ss.png)
 Hover over a pixel to see z buffer values.
 WASD to pan camera, zoom via scroll wheel.
 The buttons are self-explanatory.
