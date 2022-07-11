@@ -40,3 +40,4 @@ for (int i = 0; i < screenWidth; ++i) {
 zbuffOut.close();
 fbuffOut.close();
 ```
+There is a tiny white speck at the bottom left corner. You can ignore it.
