@@ -1,6 +1,10 @@
 # ZBufferDebugger
 load and visualize for cse 410 offline becausing debugging that thing in text is hell.
 #Usage:
+Hover over a pixel to see z buffer values.
+WASD to pan camera, zoom via scroll wheel.
+The buttons are self-explanatory.
+#Req:
 1. print all zbuffer and framebuffer values to z_buffer_all.txt f_buffer_all.txt
 2. Files must be in same folder as zBuff.exe
 3. run zBuff.exe
@@ -16,9 +20,10 @@ public:
     friend ostream &operator<<(ostream &os, const Color &color) {
         os << color.r << " " << color.g << " " << color.b;
         return os;
+    }
 }
 ```
-Print to files like.
+Print to files by separating them via commas:
 ```
 ofstream zbuffOut("z_buffer_all.txt");
 ofstream fbuffOut("f_buffer_all.txt");
